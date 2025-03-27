@@ -13,10 +13,26 @@ h1 {
 #gameCanvas {
   border: 2px solid #333;
   background-color: #ffffff;
-  cursor: pointer; /* shows a pointer icon, child-friendly */
+  cursor: pointer; /* pointer for kid-friendly look */
 }
 
 p {
   font-size: 1.2em;
   margin-bottom: 10px;
+}
+
+.score-container {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eee;
 }
