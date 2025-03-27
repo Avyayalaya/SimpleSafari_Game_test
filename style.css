@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  background: #fafafa;
+}
+
+h1 {
+  color: #333;
+}
+
+#gameCanvas {
+  border: 2px solid #333;
+  background-color: #ffffff;
+  cursor: pointer; /* shows a pointer icon, child-friendly */
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
